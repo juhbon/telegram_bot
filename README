@@ -1,3 +1,5 @@
 This is simple telegram bot on python 3.6.2 using telebot module.
+Bot can return random phrase from file which collect messages from all 
+chats.
 It will be updated as soon as I will add new functions.
 Bot worked under computer with Windows 8.1 x64.
