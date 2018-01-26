@@ -4,6 +4,7 @@ from telebot import types
 from random import randint, seed
 import re
 
+# Part of code which responsible for using Telegram Bot API for connecting
 token = '' # here's your token
 bot = telebot.TeleBot(token)
 
