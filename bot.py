@@ -8,6 +8,7 @@ import re
 token = '' # here's your token
 bot = telebot.TeleBot(token)
 
+# Keyboard to show when bot idle (always)
 markup = types.ReplyKeyboardMarkup()
 markup.row('rand')
 markup.row('/help','/rand')
