@@ -65,5 +65,7 @@ def communication(message):
                 updating()
             except:
                 nontest(message)
-  
+
+# Make bot working always after start
+# Not recommended for servers due to amount of requests  
 bot.polling(none_stop=True)
