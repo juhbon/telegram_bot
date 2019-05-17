@@ -4,6 +4,8 @@ from telebot import types
 from random import randint, seed
 import re
 
+# May require sudo to access for creating file for citations 
+
 # Part of code which responsible for using Telegram Bot API for connecting
 token = '' # here's your token
 bot = telebot.TeleBot(token)
